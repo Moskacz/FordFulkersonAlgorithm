@@ -19,7 +19,7 @@ private:
 	
 public:
 	int parent[VERTEX_COUNT];
-	bool bfs(int residualGraph[VERTEX_COUNT][VERTEX_COUNT], int source, int sink);
+	bool bfs(int residualGraph[VERTEX_COUNT][VERTEX_COUNT], int sourceIndex, int sinkIndex);
 };
 
 #endif /* defined(__FordFulkersonAlgorithm__BFSAlgorithm__) */

@@ -11,10 +11,12 @@
 
 #include <stdio.h>
 #include "Definitions.h"
+#include "BFSAlgorithm.h"
 
 class FordFulkersonAlgorithm {
 private:
 	int residualGraph[VERTEX_COUNT][VERTEX_COUNT];
+	BFSAlgorithm *bfsAlgorithm;
 	
 public:
 	FordFulkersonAlgorithm(int graph[VERTEX_COUNT][VERTEX_COUNT]);

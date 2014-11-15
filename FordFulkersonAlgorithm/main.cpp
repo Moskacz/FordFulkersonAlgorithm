@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
 										{0, 0, 0, 0, 0, 0}};
 
 	FordFulkersonAlgorithm *alhorithm = new FordFulkersonAlgorithm(graph);
-	cout << "test: " << alhorithm->maximumFlowForVertices(0, 1) << endl;
+	cout << "Maximum posiible flow: " << alhorithm->maximumFlowForVertices(0, 5) << endl;
 	
 	return 0;
 }
