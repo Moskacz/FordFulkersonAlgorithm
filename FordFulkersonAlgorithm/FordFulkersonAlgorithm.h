@@ -17,6 +17,11 @@ class FordFulkersonAlgorithm {
 private:
 	int residualGraph[VERTEX_COUNT][VERTEX_COUNT];
 	BFSAlgorithm *bfsAlgorithm;
+	int source;
+	int sink;
+	int minimumFlowAlongBSFPath();
+	void updateValuesInResidualGraphByFlow(int flow);
+	
 	
 public:
 	FordFulkersonAlgorithm(int graph[VERTEX_COUNT][VERTEX_COUNT]);

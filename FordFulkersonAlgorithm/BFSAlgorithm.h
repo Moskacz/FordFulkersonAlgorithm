@@ -16,10 +16,12 @@
 class BFSAlgorithm {
 private:
 	bool visited[VERTEX_COUNT];
+	int firstQueueElement;
 	
 public:
 	int parent[VERTEX_COUNT];
 	bool bfs(int residualGraph[VERTEX_COUNT][VERTEX_COUNT], int sourceIndex, int sinkIndex);
+	bool isVertexConsequent(int graph[VERTEX_COUNT][VERTEX_COUNT], int firstVertex, int secondVertex);
 };
 
 #endif /* defined(__FordFulkersonAlgorithm__BFSAlgorithm__) */

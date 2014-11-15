@@ -14,11 +14,11 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
 	int graph[VERTEX_COUNT][VERTEX_COUNT] = { {0, 16, 13, 0, 0, 0},
-										{0, 0, 10, 12, 0, 0},
-										{0, 4, 0, 0, 14, 0},
-										{0, 0, 9, 0, 0, 20},
-										{0, 0, 0, 7, 0, 4},
-										{0, 0, 0, 0, 0, 0}};
+																						{0, 0, 10, 12, 0, 0},
+																						{0, 4, 0, 0, 14, 0},
+																						{0, 0, 9, 0, 0, 20},
+																						{0, 0, 0, 7, 0, 4},
+																						{0, 0, 0, 0, 0, 0}};
 
 	FordFulkersonAlgorithm *alhorithm = new FordFulkersonAlgorithm(graph);
 	cout << "Maximum posiible flow: " << alhorithm->maximumFlowForVertices(0, 5) << endl;
