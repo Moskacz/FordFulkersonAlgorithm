@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3578EC7D19FEA02A005695FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3578EC7C19FEA02A005695FD /* main.cpp */; };
+		35B3FC951A1787D900FBA20D /* FordFulkersonAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35B3FC931A1787D900FBA20D /* FordFulkersonAlgorithm.cpp */; };
+		35B3FC981A17914C00FBA20D /* BFSAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35B3FC961A17914C00FBA20D /* BFSAlgorithm.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3578EC7719FEA02A005695FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3578EC7919FEA02A005695FD /* FordFulkersonAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FordFulkersonAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		3578EC7C19FEA02A005695FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		35B3FC931A1787D900FBA20D /* FordFulkersonAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FordFulkersonAlgorithm.cpp; sourceTree = "<group>"; };
+		35B3FC941A1787D900FBA20D /* FordFulkersonAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FordFulkersonAlgorithm.h; sourceTree = "<group>"; };
+		35B3FC961A17914C00FBA20D /* BFSAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BFSAlgorithm.cpp; sourceTree = "<group>"; };
+		35B3FC971A17914C00FBA20D /* BFSAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFSAlgorithm.h; sourceTree = "<group>"; };
+		35B3FC991A1791A800FBA20D /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3578EC7619FEA02A005695FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3578EC7019FEA02A005695FD = {
+			isa = PBXGroup;
+			children = (
+				3578EC7B19FEA02A005695FD /* FordFulkersonAlgorithm */,
+				3578EC7A19FEA02A005695FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3578EC7A19FEA02A005695FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3578EC7919FEA02A005695FD /* FordFulkersonAlgorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3578EC7B19FEA02A005695FD /* FordFulkersonAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				3578EC7C19FEA02A005695FD /* main.cpp */,
+				35B3FC931A1787D900FBA20D /* FordFulkersonAlgorithm.cpp */,
+				35B3FC941A1787D900FBA20D /* FordFulkersonAlgorithm.h */,
+				35B3FC961A17914C00FBA20D /* BFSAlgorithm.cpp */,
+				35B3FC971A17914C00FBA20D /* BFSAlgorithm.h */,
+				35B3FC991A1791A800FBA20D /* Definitions.h */,
+			);
+			path = FordFulkersonAlgorithm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3578EC7819FEA02A005695FD /* FordFulkersonAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3578EC8019FEA02A005695FD /* Build configuration list for PBXNativeTarget "FordFulkersonAlgorithm" */;
+			buildPhases = (
+				3578EC7519FEA02A005695FD /* Sources */,
+				3578EC7619FEA02A005695FD /* Frameworks */,
+				3578EC7719FEA02A005695FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FordFulkersonAlgorithm;
+			productName = FordFulkersonAlgorithm;
+			productReference = 3578EC7919FEA02A005695FD /* FordFulkersonAlgorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3578EC7119FEA02A005695FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Michal Moskala";
+				TargetAttributes = {
+					3578EC7819FEA02A005695FD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 3578EC7419FEA02A005695FD /* Build configuration list for PBXProject "FordFulkersonAlgorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3578EC7019FEA02A005695FD;
+			productRefGroup = 3578EC7A19FEA02A005695FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3578EC7819FEA02A005695FD /* FordFulkersonAlgorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3578EC7519FEA02A005695FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3FC951A1787D900FBA20D /* FordFulkersonAlgorithm.cpp in Sources */,
+				35B3FC981A17914C00FBA20D /* BFSAlgorithm.cpp in Sources */,
+				3578EC7D19FEA02A005695FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3578EC7E19FEA02A005695FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3578EC7F19FEA02A005695FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3578EC8119FEA02A005695FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3578EC8219FEA02A005695FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3578EC7419FEA02A005695FD /* Build configuration list for PBXProject "FordFulkersonAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3578EC7E19FEA02A005695FD /* Debug */,
+				3578EC7F19FEA02A005695FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3578EC8019FEA02A005695FD /* Build configuration list for PBXNativeTarget "FordFulkersonAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3578EC8119FEA02A005695FD /* Debug */,
+				3578EC8219FEA02A005695FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3578EC7119FEA02A005695FD /* Project object */;
+}
